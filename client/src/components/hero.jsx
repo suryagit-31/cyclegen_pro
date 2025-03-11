@@ -146,7 +146,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.5 }}
-            className="text-6xl font-bold text-white/10"
+            className="text-6xl font-bold text-white/30"
           >
             {bikes[currentBike].title}
           </motion.h2>
