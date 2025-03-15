@@ -26,7 +26,7 @@ function AnimatedRoutes() {
     <AnimatePresence mode="wait">
       <Routes location={location} key={location.pathname}>
         <Route
-          path="/"
+          index // 👈 Add this line
           element={
             <motion.div
               variants={pageVariants}
