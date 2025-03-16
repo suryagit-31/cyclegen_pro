@@ -30,7 +30,7 @@ const About = () => {
             <p className="text-lg text-gray-600 mb-8">
               Founded in 2023, we've quickly become a leader in smart electric
               bikes, combining cutting-edge technology with environmental
-              consciousness.
+              consciousnes.
             </p>
             <motion.button
               whileHover={{ scale: 1.05 }}
